@@ -1,23 +1,45 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
+# Environment variables
+.env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+config.env
+backend/config.env
+**/config.env
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+Fix 2 — Update dotenv.config() in server.js
+Since your file is config/config.env not .env, you need to tell dotenv the correct path:
+jsconst dotenv = require('dotenv');
+
+// ✅ Point to correct file location
+dotenv.config({ path: './config/config.env' });
+
+Fix 3 — Remove config.env from GitHub if Already Pushed
+bashgit rm --cached backend/config/config.env
+git add .
+git commit -m "fix: remove config.env from tracking"
+git push
+
+Verify It's Working
+bash# Check if file is ignored
+git check-ignore -v backend/config/config.env
+Should show:
+.gitignore:3:config.env    backend/config/config.env ✅
+
+Your config.env Should Look Like This
+envMONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/mini-crm?retryWrites=true&w=majority
+JWT_SECRET=your_super_secret_key_here
+PORT=5000
+NODE_ENV=production
+CLIENT_URL=https://your-app.vercel.app
+
+
+The key fix is dotenv.config({ path: './config/config.env' }) — without the correct path, dotenv can't find your variables and they come up as undefined! This was likely the root cause of all your earlier MongoDB URI errors! 🎯
