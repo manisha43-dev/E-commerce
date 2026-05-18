@@ -10,7 +10,7 @@ const cors =require('cors')
 
 const connectDatabase=require('./config/connectDatabase')
 
-dotenv.config({path:path.join(__dirname,'config','config.env')})
+dotenv.config({path:path.join(__dirname,'.env')})
 
 
 const products=require('./routes/product');
