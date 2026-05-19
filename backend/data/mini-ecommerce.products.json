@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "69575316edccd20424211079"
+  },
+  "name": "OPPO F21s Pro 5G",
+  "price": 245.67,
+  "description": "OPPO F21 s Pro 5G is a powerful device with a more memory storage,IP69 All-Round Waterproof Champion\nDamage-Proof 360° Armour Body,Smoothness Tested for India's High Heat\n7000mAh Large Battery",
+  "rating": 4.5,
+  "images": [
+    {
+      "image": "/images/products/1.jpg"
+    },
+    {
+      "image": "/images/products/2.jpg"
+    }
+  ],
+  "category": "Mobile",
+  "seller": "Flipkart",
+  "stock": "15"
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107a"
+  },
+  "name": "WRISTIO,Bluetooth Watch",
+  "price": 150.32,
+  "description": "WRISTIO HD, Bluetooth Calling Smart Watch, 15 days battery life, Water Resistant,WRISTIO 3 1.85\" HD, Bluetooth Calling Smart Watch, 50+ Sports Modes, Rotating Crown, 15 days battery life, Split-screen, Water Resistant, Smart Health Monitoring, Password Protection, Black",
+  "rating": 4.5,
+  "images": [
+    {
+      "image": "/images/products/2.jpg"
+    },
+    {
+      "image": "/images/products/3.jpg"
+    }
+  ],
+  "category": "Watch",
+  "seller": "Amazon",
+  "stock": "5"
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107b"
+  },
+  "name": "Dell Laptop",
+  "price": 440.57,
+  "description": "Windows 11 Home\n(Dell Technologies recommends Windows 11 Pro for business)\nIntel® Arc™ Graphics\n16GB, LPDDR5X, 8533MT/s, Memory on Package, onboard\n512 GB, M.2, PCIe NVMe, SSD\n40.6-cm. display Full HD+ (1920X1200)",
+  "rating": 4.5,
+  "images": [
+    {
+      "image": "/images/products/3.jpg"
+    },
+    {
+      "image": "/images/products/4.jpg"
+    }
+  ],
+  "category": "Laptop",
+  "seller": "Amazon",
+  "stock": 3
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107c"
+  },
+  "name": "Bluetooth Ear Phones",
+  "price": 15.46,
+  "description": "PTron Newly Launched Tangent Sports, 60Hrs Playtime,Ambrane Wired Earphones with Mic | 3.5Mm Audio Jack | 14Mm Driver for HD Sound & Deep Bass | Tangle-Free 1.2M Cable | in Ear Comfort Fit | Compatible with Mobiles, Tablets, Laptops, Pcs (EP-83 Green)",
+  "rating": 2.4,
+  "images": [
+    {
+      "image": "/images/products/4.jpg"
+    },
+    {
+      "image": "/images/products/5.jpg"
+    }
+  ],
+  "category": "Ear Phone",
+  "seller": "Amazon",
+  "stock": 3
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107d"
+  },
+  "name": "Sports Shoe",
+  "price": 10.12,
+  "description": "Campus Men's Maxico Running Shoes,Hilux Latest New Trendy Sneakers Shoes | Lightweight Running | Trekking Shoes | Graceful Men Casual Shoes | Light Weight Shoe For Men | Waterproof shoes for Men | Best Shoes For Men",
+  "rating": 5,
+  "images": [
+    {
+      "image": "/images/products/5.jpg"
+    },
+    {
+      "image": "/images/products/6.jpg"
+    }
+  ],
+  "category": "Shoes",
+  "seller": "Amazon",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107e"
+  },
+  "name": "ASUS VIVOBOOK",
+  "price": 245.67,
+  "description": "ASUS Vivobook Go 15 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1504FA-NJ321WS Thin and Light Laptop  (15.6 Inch, Silver, 1.63 Kg, With MS Office)",
+  "rating": 3,
+  "images": [
+    {
+      "image": "/images/products/6.jpg"
+    },
+    {
+      "image": "/images/products/7.jpg"
+    }
+  ],
+  "category": "Laptop",
+  "seller": "Flipkart",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "69575316edccd2042421107f"
+  },
+  "name": "HP Anti-Glare",
+  "price": 250.42,
+  "description": "HP 15s, 12th Gen Intel Core i3-1215U (8GB DDR4, 512GB SSD) Anti-Glare, 15.6\"/39.6cm,FHD, Win 11, MS Office 21, Silver, 1.69kg, fy5006tu/fd0751tu/fd0752tu, UHD Graphics, HD Camera, Dual Speakers Laptop",
+  "rating": 4.5,
+  "images": [
+    {
+      "image": "/images/products/7.jpg"
+    },
+    {
+      "image": "/images/products/8.jpg"
+    }
+  ],
+  "category": "Laptop",
+  "seller": "Amazon",
+  "stock": 5
+}]
